@@ -1,44 +1,24 @@
 # Stat632-FinalProject
 A data frame with 403 observations on the following 19 variables.
-
 id : Subject ID
-
 chol : Total Cholesterol
-
 stab.glu : Stabilized Glucose
-
 hdl : High Density Lipoprotein
-
 ratio : Cholesterol/HDL Ratio
-
 glyhb : Glycosolated Hemoglobin
-
 location : County, a factor with levels Buckingham Louisa
-
 age : age in years
-
 gender : a factor with levels male female
-
 height : height in inches
-
 weight : weight in pounds
-
 frame : a factor with levels small medium large
-
 bp.1s : First Systolic Blood Pressure
-
 bp.1d : First Diastolic Blood Pressure
-
 bp.2s : Second Systolic Blood Pressure
-
 bp.2d : Second Diastolic Blood Pressure
-
 waist : waist in inches
-
 hip : hip in inches
-
 time.ppn : Postprandial Time (in minutes) when Labs were Drawn
-
 
 Details : Glycosolated hemoglobin greater than 7.0 is usually taken as a positive diagnosis of diabetes
 
