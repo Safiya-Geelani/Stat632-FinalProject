@@ -1,10 +1,30 @@
 # Stat632-FinalProject
-This dataset contains the Happiness Score and Rank for 146 countries along with the factors used to explain the score. The scores are based on individuals' own assessments of their lives, as revealed by their answers to the single-item Cantril ladder life-evaluation question.
-146 rows (countries) x 12 columns (including 9 different factors).
-The factors are: Positive affect, Negative affect, Dystopia(1.83), GDP per capita, Social support, Healthy life expectancy, Freedom to make life choices, Generosity, Perceptions of government/ business corruption.
-Positive affect the average of three positive affect measures in GWP (laugh, enjoyment, doing interesting things).
-Negative affect is the average of three negative affect measures in GWP (worry, sadness, anger).
-The value for Dystopia (1.83) is the predicted Cantril ladder for a hypothetical country with the world's lowest values for each of the six variables.
-The World Happiness Report is a publication of the Sustainable Development Solutions Network, powered by the Gallup World Poll data.
-Editors: John Helliwell, Richard Layard, Jeffrey D. Sachs, Jan-Emmanuel De Neve, Lara B. Aknin, Shun Wang; and Sharon Paculor, Production Editor.
-Citation: Helliwell, J. F., Layard, R., Sachs, J. D., De Neve, J.-E., Aknin, L. B., & Wang, S. (Eds.). (2022). World Happiness Report 2022. New York: Sustainable Development Solutions Network.
+A data frame with 403 observations on the following 19 variables.
+id : Subject ID
+chol : Total Cholesterol
+stab.glu : Stabilized Glucose
+hdl : High Density Lipoprotein
+ratio : Cholesterol/HDL Ratio
+glyhb : Glycosolated Hemoglobin
+location : County, a factor with levels Buckingham Louisa
+age : age in years
+gender : a factor with levels male female
+height : height in inches
+weight : weight in pounds
+frame : a factor with levels small medium large
+bp.1s : First Systolic Blood Pressure
+bp.1d : First Diastolic Blood Pressure
+bp.2s : Second Systolic Blood Pressure
+bp.2d : Second Diastolic Blood Pressure
+waist : waist in inches
+hip : hip in inches
+time.ppn : Postprandial Time (in minutes) when Labs were Drawn
+
+Details
+Glycosolated hemoglobin greater than 7.0 is usually taken as a positive diagnosis of diabetes
+
+Source
+Willems JP, Saunders JT, DE Hunt, JB Schorling: Prevalence of coronary heart disease risk factors among rural blacks: A community-based study. Southern Medical Journal 90:814-820; 1997
+
+References
+Schorling JB, Roach J, Siegel M, Baturka N, Hunt DE, Guterbock TM, Stewart HL: A trial of church-based smoking cessation interventions for rural African Americans. Preventive Medicine 26:92-101; 1997
